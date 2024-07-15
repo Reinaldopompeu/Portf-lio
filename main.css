@@ -1,0 +1,1611 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@media (max-width: 1920px) {
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+}
+html, body
+    {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.computador{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.Header-computador{
+    position: fixed;
+    font-family: 'rubik';
+    width: 100%;
+    height: 65px;
+    background-color: #292E39;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    z-index: 1000;
+}
+.Header-computador > .div-computador01{
+    height: auto;
+    display: flex;
+    color: white;
+    gap: 20px;
+}
+.Header-computador > .div-computador01 > p {
+    font-weight: bold;
+    font-size: 25px;
+    height: auto;
+    display: flex;
+    color: white;
+    gap: 20px;
+    justify-content: center;
+}
+.Header-computador > .nav-computador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Header-computador > .nav-computador > ul{
+    gap: 20px;
+    display: flex;
+    padding: 0;
+}
+.Header-computador > .nav-computador > ul > li{
+    display: flex;
+    align-items: center;
+}
+.Header-computador > .nav-computador > ul > li > a{
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background: #2E3440;
+    padding: 7px 20px 7px 20px;
+}
+.Header-computador > .nav-computador > ul > li > a > svg{
+  display: none;
+}
+.Header-computador > .nav-computador > ul > li > a:hover,
+.Header-computador > .nav-computador > ul > li > a.active{
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background: #D08770;
+    padding: 7px 20px 7px 20px;
+    margin-bottom: 10px;
+}
+.main-computador-intro{
+    position:static;
+    background-color: #81A1C1;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.main-computador-intro > .div-computador-intro01{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+}
+.main-computador-intro > .div-computador-intro01 > svg{
+    position: absolute;
+    z-index: 500;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.main-computador-intro > .div-computador-intro01> .img-computador-intro01{
+    z-index: 600;
+    position: absolute;
+    display: flex;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+    margin-bottom: 132px
+}
+.main-computador-intro > .div-computador-intro01> .img-computador-intro02{
+  display: none;
+}
+.main-computador-intro > .div-computador-intro01> p{
+    color:#002024;
+    font-size: 40px;
+    font-weight: bold;
+    z-index: 600;
+    position: absolute;
+    display: flex;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 258px;
+}
+.main-computador-intro > .div-computador-intro01 > .section-computador-intro01{
+    z-index: 700;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #002024;
+    margin-top: 226px;
+    margin-right: 39px;
+}
+.main-computador-sobre{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #81A1C1;
+    display: flex;
+}
+.main-computador-sobre > .div-computador-sobre-01{
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    background: #81A1C1;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+.main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01{
+    margin-top: 37px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    grid-template-columns: 500px 350px;
+
+}
+.main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > article{
+   width: 60%;
+   height: 400px;
+   background-color: #D08770;
+   gap:10px;
+}
+.main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-02{
+    border: 7px solid #292E39;
+    border-radius: 20px;
+    width: 500px;
+    height: 350px;
+    background-color: white;
+}
+.main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-02 > h1{
+    font-size: 30px;
+    margin: 20px 20px 0px 20px;
+    color: #2E3440;
+    font-family: 'rubik';
+
+}
+.main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-02 > p{
+    font-size: 23px;
+    margin: 10px 20px 20px 20px;
+    color: #2E3440;
+    font-family: 'rubik';
+
+}
+.main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > img{
+    border: 7px solid #292E39;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+}
+.main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-03{
+    border: 7px solid #292E39;
+    border-radius: 20px;
+    width: 500px;
+    height: 200px;
+    background-color: white;
+}
+.main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-03 > h1{
+    font-size: 30px;
+    margin: 20px 20px 0px 20px;
+    color: #2E3440;
+    font-family: 'rubik';
+}
+.main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-03 > p{
+    font-size: 23px;
+    margin: 10px 20px 20px 20px;
+    color: #2E3440;
+    font-family: 'rubik';
+}
+.main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-04{
+    border: 7px solid #292E39;
+    border-radius: 20px;
+    width: 350px;
+    height: 200px;
+    background-color: white;
+}
+.main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-04 > h1{
+    font-size: 30px;
+    margin: 20px 20px 0px 20px;
+    color: #2E3440;
+    font-family: 'rubik';
+
+}
+.main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-04 > p{
+    font-size: 23px;
+    margin: 10px 20px 20px 20px;
+    color: #2E3440;
+    font-family: 'rubik';
+}
+.main-computador-habilidades{
+    width: 100%;
+    height: auto;
+    background-color: #81A1C1;
+    display: flex;
+}
+.main-computador-habilidades > .div-computador-habilidades-01{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    margin-top: 116px;
+}
+.main-computador-habilidades > .div-computador-habilidades-01 > .section-computador-habilidades-01{
+    display: grid;
+    grid-template-rows: 80px 250px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+}
+.main-computador-habilidades > .div-computador-habilidades-01 > .section-computador-habilidades-01 > .div-computador-habilidades-02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E3440;
+    width: 900px;
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+.main-computador-habilidades > .div-computador-habilidades-01 > .section-computador-habilidades-01 > .div-computador-habilidades-02 > p{
+color: white;
+font-size: 3vw;
+font-family: 'rubik';
+}
+.main-computador-habilidades > .div-computador-habilidades-01 > .section-computador-habilidades-01 > .div-computador-habilidades-03{
+    justify-items: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 20% 20% 20% 20%;
+    gap: 30px;
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    border-radius: 0px 0px 20px 20px;
+    border-bottom: 5px solid #2E3440;
+}
+.main-computador-habilidades > .div-computador-habilidades-01 > .section-computador-habilidades-01 > .div-computador-habilidades-03 > article{
+
+    width: 60%;
+    height: 60%;
+    background-color: #2E3440;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 75% 25%;
+    justify-content: center;
+    text-align: center;
+    color:#2E3440;
+    font-size: 1vw;
+    font-family:'rubik';
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+.main-computador-habilidades > .div-computador-habilidades-01 > .section-computador-habilidades-01 > .div-computador-habilidades-03 > article > svg{
+    background-color: #292E39;
+    width: 100%;
+    height: 100%;
+
+}
+.main-computador-habilidades > .div-computador-habilidades-01 > .section-computador-habilidades-01 > .div-computador-habilidades-03 > article > p{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+
+}
+.main-computador-projetos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #81A1C1;
+}
+.main-computador-projetos > .section-computador-projetos-01{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-01{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    border:10px solid #2E3440
+}
+.main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02{
+    width: 800px;
+    height: 300px;
+    display: grid;
+    grid-template-rows: 25% 50% 25%;
+    background-color: white;
+    border-radius: 10px;
+    border:10px solid #2E3440
+}
+.main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > h1{
+    margin: 20px;
+    font-size: 30px;
+    font-family: 'rubik';
+    color: #2E3440;
+}
+.main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > p{
+    margin: 20px;
+    font-size: 25px;
+    font-family: 'rubik';
+    color: #2E3440;
+    align-items: center;
+    align-content: center;
+}
+.main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > article{
+    display: flex;
+    width: 95%;
+    height: 100%;
+    gap: 20px;
+    justify-content: flex-end;
+}
+.main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > article > a{
+    display: flex; 
+    border: 5px solid #2E3440;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 120px;
+    text-decoration: none;
+
+}
+.main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > article > a > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'rubik';
+    gap: 10px;
+    color: #2E3440;
+    font-weight: bold;
+}
+.main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > article > a > p > svg{
+    stroke: #2E3440;
+    stroke-width: 6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > article > a:hover,
+.main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > article > a:hover > p,
+.main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > article > a:hover > p > svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'rubik';
+    gap: 10px;
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #2E3440;
+    stroke:white;
+}
+.main-computador-contatos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #81A1C1;
+}
+.main-computador-contatos > .section-computador-contatos-01{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 200px 200px;
+    gap: 30px;
+    align-content: center;
+    justify-content: center;
+}
+.main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-01{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 85% 15%;
+    grid-row: 1;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #922B21;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 50px 5px #000000;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-01:hover{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #2E3440;
+}
+.main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-01 > svg{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-01 > p{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'rubik';
+    color: white;
+}
+.main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-02{
+    width: 400px;
+    height: 200px;
+    display:grid;
+    grid-template-rows: 85% 15%;
+    grid-row: 1;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), #598065;
+    box-shadow: 0px 29px 120px 10px #000000;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-02:hover{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #2E3440;
+}
+.main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-02 > svg{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-02 > p{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'rubik';
+    color: white;
+}
+.main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-03{
+    width: 400px;
+    height: 200px;
+    display: grid;
+    grid-template-rows: 85% 15%;
+    grid-row: 2;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), #305280;
+    box-shadow: 0px 4px 50px 5px #000000;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-03:hover{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #2E3440;
+}
+.main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-03 > svg{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-03 > p{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'rubik';
+    color: white;
+}
+.main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-04{
+    width: 400px;
+    height: 200px;
+    display: grid;
+    grid-template-rows: 85% 15%;
+    grid-column: 2;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), #000000;
+    box-shadow: 0px 29px 120px 10px #000000;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-04:hover{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #2E3440;
+}
+.main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-04 > svg{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-04 > p{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'rubik';
+    color: white;
+}
+}
+@media (max-width: 1100px) {
+    html {
+        scroll-behavior: smooth;
+        margin: 0;
+    }
+    html, body
+        {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .computador{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .Header-computador{
+        position: fixed;
+        font-family: 'rubik';
+        width: 100%;
+        height: 65px;
+        background-color: #292E39;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10%;
+        z-index: 1000;
+    }
+    .Header-computador > .div-computador01{
+        height: auto;
+        display: flex;
+        color: white;
+        gap: 20px;
+    }
+    .Header-computador > .div-computador01 > p {
+        font-weight: bold;
+        font-size: 25px;
+        height: auto;
+        display: flex;
+        color: white;
+        gap: 20px;
+        justify-content: center;
+    }
+    .Header-computador > .nav-computador{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Header-computador > .nav-computador > ul{
+        gap: 20px;
+        display: flex;
+        padding: 0;
+    }
+    .Header-computador > .nav-computador > ul > li{
+        display: flex;
+        align-items: center;
+    }
+    .Header-computador > .nav-computador > ul > li > a{
+        border-radius: 10px;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        background: #2E3440;
+        padding: 7px 20px 7px 20px;
+    }
+    .Header-computador > .nav-computador > ul > li > a > svg{
+      display: none;
+    }
+    .Header-computador > .nav-computador > ul > li > a:hover,
+    .Header-computador > .nav-computador > ul > li > a.active{
+        border-radius: 10px;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        background: #D08770;
+        padding: 7px 20px 7px 20px;
+        margin-bottom: 10px;
+    }
+    .main-computador-intro{
+        position:static;
+        background-color: #81A1C1;
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    .main-computador-intro > .div-computador-intro01{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        flex-direction: column;
+    }
+    .main-computador-intro > .div-computador-intro01 > svg{
+        position: absolute;
+        z-index: 500;
+        margin-bottom: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-computador-intro > .div-computador-intro01> img{
+        z-index: 600;
+        position: absolute;
+        display: flex;
+        width: 500px;
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 200px;
+        margin-bottom: 132px
+    }
+    .main-computador-intro > .div-computador-intro01> p{
+        color:#002024;
+        font-size: 40px;
+        font-weight: bold;
+        z-index: 600;
+        position: absolute;
+        display: flex;
+        width: 500px;
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 50px;
+        margin-top: 258px;
+    }
+    .main-computador-intro > .div-computador-intro01 > .section-computador-intro01{
+        z-index: 700;
+        position: absolute;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        font-size: 40px;
+        font-weight: bold;
+        color: #002024;
+        margin-top: 226px;
+        margin-right: 39px;
+    }
+    .main-computador-sobre{
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background: #81A1C1;
+        display: flex;
+    }
+    .main-computador-sobre > .div-computador-sobre-01{
+        align-items: center;
+        width: 100%;
+        height: 80%;
+        background: #81A1C1;
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+    }
+    .main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01{
+        margin-top: 37px;
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        gap: 20px;
+        width: 100%;
+        grid-template-columns: 500px 350px;
+    
+    }
+    .main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > article{
+       width: 60%;
+       height: 400px;
+       background-color: #D08770;
+       gap:10px;
+    }
+    .main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-02{
+        border: 7px solid #292E39;
+        border-radius: 20px;
+        width: 500px;
+        height: 350px;
+        background-color: white;
+    }
+    .main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-02 > h1{
+        font-size: 30px;
+        margin: 20px 20px 0px 20px;
+        color: #2E3440;
+        font-family: 'rubik';
+    
+    }
+    .main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-02 > p{
+        font-size: 23px;
+        margin: 10px 20px 20px 20px;
+        color: #2E3440;
+        font-family: 'rubik';
+    
+    }
+    .main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > img{
+        border: 7px solid #292E39;
+        border-radius: 50%;
+        width: 350px;
+        height: 350px;
+    }
+    .main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-03{
+        border: 7px solid #292E39;
+        border-radius: 20px;
+        width: 500px;
+        height: 200px;
+        background-color: white;
+    }
+    .main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-03 > h1{
+        font-size: 30px;
+        margin: 20px 20px 0px 20px;
+        color: #2E3440;
+        font-family: 'rubik';
+    }
+    .main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-03 > p{
+        font-size: 23px;
+        margin: 10px 20px 20px 20px;
+        color: #2E3440;
+        font-family: 'rubik';
+    }
+    .main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-04{
+        border: 7px solid #292E39;
+        border-radius: 20px;
+        width: 350px;
+        height: 200px;
+        background-color: white;
+    }
+    .main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-04 > h1{
+        font-size: 30px;
+        margin: 20px 20px 0px 20px;
+        color: #2E3440;
+        font-family: 'rubik';
+    
+    }
+    .main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-04 > p{
+        font-size: 23px;
+        margin: 10px 20px 20px 20px;
+        color: #2E3440;
+        font-family: 'rubik';
+    }
+    .main-computador-habilidades{
+        width: 100%;
+        height: auto;
+        background-color: #81A1C1;
+        display: flex;
+    }
+    .main-computador-habilidades > .div-computador-habilidades-01{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap:50px;
+        margin-top: 116px;
+    }
+    .main-computador-habilidades > .div-computador-habilidades-01 > .section-computador-habilidades-01{
+        display: grid;
+        grid-template-rows: 80px 250px;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-content: center;
+    }
+    .main-computador-habilidades > .div-computador-habilidades-01 > .section-computador-habilidades-01 > .div-computador-habilidades-02{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #2E3440;
+        width: 900px;
+        height: auto;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .main-computador-habilidades > .div-computador-habilidades-01 > .section-computador-habilidades-01 > .div-computador-habilidades-02 > p{
+    color: white;
+    font-size: 30px;
+    font-family: 'rubik';
+    }
+    .main-computador-habilidades > .div-computador-habilidades-01 > .section-computador-habilidades-01 > .div-computador-habilidades-03{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 20% 20% 20% 20%;
+        gap: 30px;
+        background-color: white;
+        width: 100%;
+        height: 250px;
+        border-radius: 0px 0px 20px 20px;
+        border-bottom: 5px solid #2E3440;
+    }
+    .main-computador-habilidades > .div-computador-habilidades-01 > .section-computador-habilidades-01 > .div-computador-habilidades-03 > article{
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        color:#2E3440;
+        font-size: 17px;
+        font-family:'rubik';
+        font-weight: bold;
+    }
+    .main-computador-projetos{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        background-color: #81A1C1;
+    }
+    .main-computador-projetos > .section-computador-projetos-01{
+        width: 100%;
+        height: 100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-01{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        background-color: white;
+        border-radius: 10px;
+        border:10px solid #2E3440
+    }
+    .main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02{
+        width: 800px;
+        height: 300px;
+        display: grid;
+        grid-template-rows: 25% 50% 25%;
+        background-color: white;
+        border-radius: 10px;
+        border:10px solid #2E3440
+    }
+    .main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > h1{
+        margin: 20px;
+        font-size: 30px;
+        font-family: 'rubik';
+        color: #2E3440;
+    }
+    .main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > p{
+        margin: 20px;
+        font-size: 25px;
+        font-family: 'rubik';
+        color: #2E3440;
+        align-items: center;
+        align-content: center;
+    }
+    .main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > article{
+        display: flex;
+        width: 95%;
+        height: 100%;
+        gap: 20px;
+        justify-content: flex-end;
+    }
+    .main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > article > a{
+        display: flex; 
+        border: 5px solid #2E3440;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        width: 120px;
+        text-decoration: none;
+    
+    }
+    .main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > article > a > p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-family: 'rubik';
+        gap: 10px;
+        color: #2E3440;
+        font-weight: bold;
+    }
+    .main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > article > a > p > svg{
+        stroke: #2E3440;
+        stroke-width: 6;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+    .main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > article > a:hover,
+    .main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > article > a:hover > p,
+    .main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > article > a:hover > p > svg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-family: 'rubik';
+        gap: 10px;
+        color:white;
+        font-weight: bold;
+        text-decoration: none;
+        background-color: #2E3440;
+        stroke:white;
+    }
+    .main-computador-contatos{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        background-color: #81A1C1;
+    }
+    .main-computador-contatos > .section-computador-contatos-01{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 400px 400px;
+        grid-template-rows: 200px 200px;
+        gap: 30px;
+        align-content: center;
+        justify-content: center;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-01{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-rows: 85% 15%;
+        grid-row: 1;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #922B21;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 50px 5px #000000;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-01:hover{
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #2E3440;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-01 > svg{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-01 > p{
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-family: 'rubik';
+        color: white;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-02{
+        width: 400px;
+        height: 200px;
+        display:grid;
+        grid-template-rows: 85% 15%;
+        grid-row: 1;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), #598065;
+        box-shadow: 0px 29px 120px 10px #000000;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-02:hover{
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #2E3440;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-02 > svg{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-02 > p{
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-family: 'rubik';
+        color: white;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-03{
+        width: 400px;
+        height: 200px;
+        display: grid;
+        grid-template-rows: 85% 15%;
+        grid-row: 2;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), #305280;
+        box-shadow: 0px 4px 50px 5px #000000;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-03:hover{
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #2E3440;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-03 > svg{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-03 > p{
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-family: 'rubik';
+        color: white;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-04{
+        width: 400px;
+        height: 200px;
+        display: grid;
+        grid-template-rows: 85% 15%;
+        grid-column: 2;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), #000000;
+        box-shadow: 0px 29px 120px 10px #000000;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-04:hover{
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #2E3440;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-04 > svg{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-04 > p{
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-family: 'rubik';
+        color: white;
+    }
+}
+@media (max-width: 600px) {
+    html {
+        scroll-behavior: smooth;
+        margin: 0;
+    }
+    html, body
+        {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .computador{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .Header-computador{
+        position: fixed;
+        font-family: 'rubik';
+        width: 100%;
+        height: 65px;
+        background-color: #292E39;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0%;
+        z-index: 1000;
+        margin-bottom: 0;
+    }
+    .Header-computador > .div-computador01{
+        height: auto;
+        display: flex;
+        color: white;
+        gap: 20px;
+    }
+    .Header-computador > .div-computador01 > p {
+        display: none;
+    }
+    .Header-computador > .nav-computador{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Header-computador > .nav-computador > ul{
+        gap: 10px;
+        display: flex;
+        padding: 0;
+    }
+    .Header-computador > .nav-computador > ul > li{
+        display: flex;
+        align-items: center;
+    }
+    .Header-computador > .nav-computador > ul > li > a{
+        border-radius: 10px;
+        font-size: 0vw;
+        text-decoration: none;
+        color: white;
+        background: #2E3440;
+        padding: 7px 10px 7px 10px;
+    }
+    .Header-computador > .nav-computador > ul > li > a > svg{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    }
+    .Header-computador > .nav-computador > ul > li > a:hover,
+    .Header-computador > .nav-computador > ul > li > a.active{
+        border-radius: 10px;
+        font-size: 0vw;
+        text-decoration: none;
+        color: white;
+        background: #D08770;
+        padding: 7px 10px 7px 10px;
+        margin-bottom: 10px;
+    }
+    .main-computador-intro{
+        position:static;
+        background-color: #81A1C1;
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    .main-computador-intro > .div-computador-intro01{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        flex-direction: column;
+    }
+    .main-computador-intro > .div-computador-intro01 > svg{
+        display: none;
+    }
+    .main-computador-intro > .div-computador-intro01> .img-computador-intro01{
+        display: none;
+    }
+    .main-computador-intro > .div-computador-intro01> .img-computador-intro02{
+        z-index: 600;
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+        margin-bottom: 0px
+    }
+    .main-computador-intro > .div-computador-intro01 > .section-computador-intro01> p{
+        width: 100%;
+        margin-left: 38%;
+        margin-top: 80%;
+        z-index: 500;
+    }
+    .main-computador-intro > .div-computador-intro01 > .section-computador-intro01{
+        z-index: 700;
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        font-size: 6vw;
+        font-weight: bold;
+        color: #002024;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .main-computador-sobre{
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background: #81A1C1;
+        display: flex;
+    }
+    .main-computador-sobre > .div-computador-sobre-01{
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background: #81A1C1;
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+    }
+    .main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01{
+        margin-top: 0px;
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        gap: 20px;
+        width: 100%;
+        grid-template-columns: 40% 40%;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    
+    }
+    .main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-02{
+        border: 7px solid #292E39;
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+    .main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-02 > h1{
+        font-size: 4vw;
+        margin: 20px 20px 0px 20px;
+        color: #2E3440;
+        font-family: 'rubik';
+    
+    }
+    .main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-02 > p{
+        font-size: 3vw;
+        margin: 10px 20px 20px 20px;
+        color: #2E3440;
+        font-family: 'rubik';
+    
+    }
+    .main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > img{
+        border: 7px solid #292E39;
+        border-radius: 50%;
+        width: 100%;
+        height: 60%;
+    }
+    .main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-03{
+        border: 7px solid #292E39;
+        border-radius: 20px;
+        width: 100%;
+        height: 90%;
+        background-color: white;
+    }
+    .main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-03 > h1{
+        font-size: 4vw;
+        margin: 20px 20px 0px 20px;
+        color: #2E3440;
+        font-family: 'rubik';
+    }
+    .main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-03 > p{
+        font-size: 3vw;
+        margin: 10px 20px 20px 20px;
+        color: #2E3440;
+        font-family: 'rubik';
+    }
+    .main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-04{
+        border: 7px solid #292E39;
+        border-radius: 20px;
+        width: 100%;
+        height: 90%;
+        background-color: white;
+    }
+    .main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-04 > h1{
+        font-size: 4vw;
+        margin: 20px 20px 0px 20px;
+        color: #2E3440;
+        font-family: 'rubik';
+    
+    }
+    .main-computador-sobre > .div-computador-sobre-01 > .section-computador-sobre-01 > .div-computador-sobre-04 > p{
+        font-size: 3vw;
+        margin: 10px 20px 20px 20px;
+        color: #2E3440;
+        font-family: 'rubik';
+    }
+    .main-computador-habilidades{
+        width: 100%;
+        height: auto;
+        background-color: #81A1C1;
+        display: flex;
+    }
+    .main-computador-habilidades > .div-computador-habilidades-01{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap:50px;
+        margin-top: 116px;
+    }
+    .main-computador-habilidades > .div-computador-habilidades-01 > .section-computador-habilidades-01{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 75%;
+        width: 100%;
+        height: 100%;
+        justify-items: center;
+    }
+    .main-computador-habilidades > .div-computador-habilidades-01 > .section-computador-habilidades-01 > .div-computador-habilidades-02{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #2E3440;
+        width: 90%;
+        height: auto;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .main-computador-habilidades > .div-computador-habilidades-01 > .section-computador-habilidades-01 > .div-computador-habilidades-02 > p{
+    color: white;
+    font-size: 5vw;
+    font-family: 'rubik';
+    }
+    .main-computador-habilidades > .div-computador-habilidades-01 > .section-computador-habilidades-01 > .div-computador-habilidades-03{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 20% 20% 20% 20%;
+        gap: 10px;
+        background-color: white;
+        width: 90%;
+        height: auto;
+        border-radius: 0px 0px 20px 20px;
+        border-bottom: 5px solid #2E3440;
+    }
+    .main-computador-habilidades > .div-computador-habilidades-01 > .section-computador-habilidades-01 > .div-computador-habilidades-03 > article{
+        width: 100%;
+        height: 80%;
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        color:#2E3440;
+        font-size: 3vw;
+        font-family:'rubik';
+        font-weight: bold;
+        justify-content: center;
+        justify-items: center;
+    }
+    .main-computador-habilidades > .div-computador-habilidades-01 > .section-computador-habilidades-01 > .div-computador-habilidades-03 > article > svg{
+     width: 90%;
+     height: 90%;
+    }
+    .main-computador-projetos{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        background-color: #81A1C1;
+    }
+    .main-computador-projetos > .section-computador-projetos-01{
+        width: 100%;
+        height: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-01{
+        width: 50%;
+        height: auto;
+        display: flex;
+        background-color: white;
+        border-radius: 10px;
+        border:10px solid #2E3440
+    }
+    .main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-01 > img{
+      width: 100%;
+      height: auto;
+    }
+    .main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02{
+        width: 85%;
+        height: 30%;
+        display: grid;
+        grid-template-rows: 25% 50% 25%;
+        background-color: white;
+        border-radius: 10px;
+        border:10px solid #2E3440
+    }
+    .main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > h1{
+        margin: 20px;
+        font-size: 6vw;
+        font-family: 'rubik';
+        color: #2E3440;
+    }
+    .main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > p{
+        margin: 20px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 4vw;
+        font-family: 'rubik';
+        color: #2E3440;
+        align-items: center;
+        align-content: center;
+    }
+    .main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > article{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        gap: 20px;
+        justify-content: center;
+        margin: 0;
+        align-items: center;
+    }
+    .main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > article > a{
+        display: flex; 
+        border: 5px solid #2E3440;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        height: 60%;
+        width: 30%;
+        text-decoration: none;
+    
+    }
+    .main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > article > a > p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4vw;
+        font-family: 'rubik';
+        gap: 10px;
+        color: #2E3440;
+        font-weight: bold;
+        margin: 0;
+    }
+    .main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > article > a > p > svg{
+        width: 30%;
+        height: 30%;
+        stroke: #2E3440;
+        stroke-width: 6;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+    .main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > article > a:hover,
+    .main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > article > a:hover > p,
+    .main-computador-projetos > .section-computador-projetos-01 > .div-computador-projetos-02 > article > a:hover > p > svg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4vw;
+        font-family: 'rubik';
+        gap: 10px;
+        color:white;
+        font-weight: bold;
+        text-decoration: none;
+        background-color: #2E3440;
+        stroke:white;
+    }
+    .main-computador-contatos{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        background-color: #81A1C1;
+    }
+    .main-computador-contatos > .section-computador-contatos-01{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 20% 20%;
+        justify-items: center;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-01{
+        width: 80%;
+        height: 100%;
+        grid-row: 1;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #922B21;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 50px 5px #000000;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        text-decoration: none;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-01:hover{
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #2E3440;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-01 > svg{
+        width: 80%;
+        height: 80%;
+        display: flex;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-01 > p{
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 0vw;
+        font-family: 'rubik';
+        color: white;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-02{
+        width: 80%;
+        height: 100%;
+        display:grid;
+        grid-template-rows: 85% 15%;
+        grid-row: 1;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), #598065;
+        box-shadow: 0px 29px 120px 10px #000000;
+        text-decoration: none;
+        justify-items: center;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-02:hover{
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #2E3440;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-02 > svg{
+        width: 80%;
+        height: 80%;
+        display: flex;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-02 > p{
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 0px;
+        font-family: 'rubik';
+        color: white;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-03{
+        width: 80%;
+        height: 100%;
+        display: grid;
+        grid-template-rows: 85% 15%;
+        grid-row: 2;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), #305280;
+        box-shadow: 0px 4px 50px 5px #000000;
+        text-decoration: none;
+        justify-items: center;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-03:hover{
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #2E3440;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-03 > svg{
+        width: 80%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-03 > p{
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 0px;
+        font-family: 'rubik';
+        color: white;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-04{
+        width: 80%;
+        height: 100%;
+        display: grid;
+        grid-template-rows: 85% 15%;
+        grid-column: 2;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), #000000;
+        box-shadow: 0px 29px 120px 10px #000000;
+        justify-items: center;
+        text-decoration: none;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-04:hover{
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #2E3440;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-04 > svg{
+        width: 80%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-computador-contatos > .section-computador-contatos-01 > .div-computador-contatos-04 > p{
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 0px;
+        font-family: 'rubik';
+        color: white;
+    }
+}
